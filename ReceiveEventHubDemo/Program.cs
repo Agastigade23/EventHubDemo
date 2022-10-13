@@ -9,7 +9,7 @@ namespace ReceiveEventHubDemo
         private const string EventHubName = "eventhubdemo";
         private const string StorageContainerName = "blobazurecontainer";
         private const string StorageAccountName = "myblobazure";
-        private const string StorageAccountKey = "tJUu1GEgdBV8Yu7IYeo7LuIEe4zjyT+QulHf6pm+rC6EyQ+9cxDFFbL3LSao/Vpj5K2Gz4pfV7Mv+ASthi5eKQ==";
+        private const string StorageAccountKey = "";
 
         private static readonly string StorageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
         static void Main(string[] args)
